@@ -14,7 +14,7 @@ body .header{
   height:35vh;
   margin-left: 450px;
 }
-img{
+.header{
   animation: 0.5s shake1 infinite alternate;
 }
 @keyframes shake1 {
