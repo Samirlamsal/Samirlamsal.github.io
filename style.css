@@ -18,12 +18,12 @@ img{
   animation: 0.5s shake1 infinite alternate;
 }
 @keyframes shake1 {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }
+  0% { left:20px; }
+  5% { left:10px; }
+  10% { left:100px; }
+  15% { left:90px; }
+  20% { left:50px; }
+  100% { left:22px; }
 }
 body .header img{
   height: 15vh;
