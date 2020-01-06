@@ -14,7 +14,9 @@ body .header{
   height:35vh;
   margin-left: 450px;
 }
-
+img{
+  animation: 0.2s shake infinite alternate;
+}
 body .header img{
   height: 15vh;
   margin-top: 15px;
