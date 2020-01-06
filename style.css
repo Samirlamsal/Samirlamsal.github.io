@@ -1,0 +1,102 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+
+body{
+  background-color: #1A1A1D;
+  color: #e5e5e5;
+  font-family:fantasy;
+
+}
+
+body .header{
+  height:35vh;
+  margin-left: 450px;
+}
+
+body .header img{
+  height: 15vh;
+  margin-top: 15px;
+  margin-left: 240px;
+
+}
+
+
+body .body{
+  height:35vh;
+  border:2px solid red;
+  margin-left: 320px;
+
+
+}
+
+body .header{
+  height:20vh;
+  padding-right:60px;
+}
+
+
+body .body .sketch img{
+  margin-top: 350px;
+  margin-left: -1250px;
+  height:40vh;
+  transform: rotate(180deg);
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'monoton';
+  background: #000;
+}
+
+.header h2 {
+  position: relative;
+  padding-left: 100px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 1.2vw;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-color: #47ff3a;
+  text-align: center;
+  animation: 0.2s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }
+}
+
+
+.header .button{
+  align-items: center;
+  margin-left:230px;
+  font-family: fantasy;
+  margin-right: 130px;
+  padding: 3px;
+  padding-left: 4px;
+  margin-top: 80px;
+  border: 1px solid white;
+  border-color: rgb(50, 115, 220);}
+
+.button:hover{
+  color:red;
+  color:#FF851B;
+  font-size: 18px;
+
+}
